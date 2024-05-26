@@ -701,6 +701,12 @@ module.exports = {
     {
       type: 'category',
       label: 'Azure Monitoring',
+      link: {
+        type: 'generated-index',
+        title: 'Azure Monitoring',
+        description: 'The following documents provide an overview on how to monitor your application running on Azure\'s managed service. Based on your service, proceed to one of the documents below.',
+        slug: '/azure-monitoring',
+      },
       items: [
         {
           type: 'category',
@@ -711,11 +717,11 @@ module.exports = {
             slug: '/azure-monitoring/bootstrapping',
           },
           items: [
-            // {
-            //   type: 'doc',
-            //   id: 'azure-monitoring/bootstrapping/strategy',
-            //   label: 'Strategy',
-            // },
+            {
+              type: 'doc',
+              id: 'azure-monitoring/bootstrapping/strategy',
+              label: 'Strategy',
+            },
             {
               type: 'doc',
               id: 'azure-monitoring/bootstrapping/collector-setup',
