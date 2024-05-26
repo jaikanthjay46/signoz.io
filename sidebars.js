@@ -792,6 +792,27 @@ module.exports = {
           ]
         },
         {
+          type: 'category',
+          label: 'Azure Container Apps',
+          link: {
+            type: 'generated-index',
+            title: 'Azure Container Apps',
+            slug: '/azure-monitoring/az-container-apps',
+          },
+          items: [
+            {
+              type: 'doc',
+              id: 'azure-monitoring/az-container-apps/metrics',
+              label: 'Metrics',
+            },
+            {
+              type: 'doc',
+              id: 'azure-monitoring/az-container-apps/logging',
+              label: 'Logging',
+            }
+          ]
+        },
+        {
           type: 'doc',
           id: 'azure-monitoring/db-metrics',
           label: 'SQL Database Metrics',
