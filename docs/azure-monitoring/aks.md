@@ -53,7 +53,7 @@ These solutions may not be suitable for all use cases, and are still may not be 
 
 For application-level tracing, you can use the OpenTelemetry SDKs integrated with your application. These SDKs will automatically collect and forward traces to the Central Collector.
 
-Please refer to our [SigNoz Tutorials](../../../instrumentation/) or [Blog](https://signoz.io/blog/) to find information on how to instrument your application like Spring, FastAPI, NextJS, Langchain, Node.js, Flask, Django, etc.
+Please refer to our [SigNoz Tutorials](../../instrumentation/) or [Blog](https://signoz.io/blog/) to find information on how to instrument your application like Spring, FastAPI, NextJS, Langchain, Node.js, Flask, Django, etc.
 
 ```bash
 # Node.js example
@@ -69,7 +69,7 @@ npm install @opentelemetry/exporter-trace-otlp-http
 export OTEL_EXPORTER_OTLP_ENDPOINT="http://otel-collector.kubelet-otel.svc.cluster.local:4318/"
 ```
 
-For application-level traces and metrics, configure your application to use the kube-dns name of the [Central Collector](../../bootstrapping/collector-setup) you set up earlier.
+For application-level traces and metrics, configure your application to use the kube-dns name of the [Central Collector](../bootstrapping/collector-setup) you set up earlier.
 
 ## Troubleshooting
 
