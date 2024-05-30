@@ -53,7 +53,7 @@ These solutions may not be suitable for all use cases, and are still may not be 
 
 For application-level tracing, you can use the OpenTelemetry SDKs integrated with your application. These SDKs will automatically collect and forward traces to the Central Collector.
 
-Please refer to our [SigNoz Tutorials](../../instrumentation/) or [Blog](https://signoz.io/blog/) to find information on how to instrument your application like Spring, FastAPI, NextJS, Langchain, Node.js, Flask, Django, etc.
+Please refer to our [SigNoz Tutorials](../../../instrumentation/) or [Blog](https://signoz.io/blog/) to find information on how to instrument your application like Spring, FastAPI, NextJS, Langchain, Node.js, Flask, Django, etc.
 
 ```bash
 # Node.js example
